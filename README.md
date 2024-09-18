@@ -37,26 +37,25 @@
 > -  Handled missing values, removed duplicates, and balanced the dataset to ensure model stability.
 -  Exploratory Data Analysis (EDA):
 
-Analyzed the distribution of customer ratings and review sentiment.
-Identified potential patterns and trends within the data using visualizations (e.g., bar plots, word clouds).
-Fake Review Detection:
+> -  Analyzed the distribution of customer ratings and review sentiment.
+> -  Identified potential patterns and trends within the data using visualizations (e.g., bar plots, word clouds).
+-  Advanced Sentiment Analysis with VADER: Apply VADER sentiment analysis to extract positive, neutral, and negative sentiments from the reviews.
+-  Aspect-Based Review Segmentation with SpaCy: Use SpaCy to segment reviews into different aspects (e.g., product quality, delivery service) to gain more specific insights.
+-  Extract Actionable Insights with TextBlob: Use TextBlob for additional sentiment analysis and extract polarity and subjectivity scores for each review.
+-  Review Classification for Targeted Marketing: Classify reviews into positive and negative categories to aid in targeted marketing strategies.
+-  Hypothesis Testing: Conduct hypothesis tests to validate assumptions and uncover key insights into customer behavior.
 
-Implemented algorithms to detect potential fake reviews based on features like review length, sentiment, and customer metadata.
-Built a classification model to flag suspicious reviews.
-Sentiment Analysis:
+-  Fake Review Detection:
+> -  Implemented algorithms to detect potential fake reviews based on features like review length, sentiment, and customer metadata.
+> -  Built a classification model to flag suspicious reviews.
+-  Sentiment Analysis:Used Natural Language Processing (NLP) techniques to analyze the sentiment of customer reviews and categorized them as positive, negative, or neutral.
+-  Model Building:
 
-Used Natural Language Processing (NLP) techniques to analyze the sentiment of customer reviews and categorized them as positive, negative, or neutral.
-Model Building:
-
-Split the data into training and testing sets.
-Built various machine learning models (e.g., Logistic Regression, Decision Trees, Random Forest, and Support Vector Machines) to predict customer star ratings based on review content.
-Evaluated model performance using accuracy, precision, recall, and F1-score metrics.
-Model Tuning:
-
-Optimized model hyperparameters using Grid Search and Random Search techniques to improve prediction accuracy.
-Model Evaluation:
-
-Compared model performance across different algorithms and identified Random Forest as the best-performing model for rating prediction.
+> -  Split the data into training and testing sets.
+> -  Built various machine learning models (e.g., Logistic Regression, Decision Trees, Random Forest, and Support Vector Machines) to predict customer star ratings based on review content.
+> -  Evaluated model performance using accuracy, precision, recall, and F1-score metrics.
+-  Model Tuning:Optimized model hyperparameters using Grid Search and Random Search techniques to improve prediction accuracy.
+-  Model Evaluation:Compared model performance across different algorithms and identified Random Forest as the best-performing model for rating prediction.
 
 
 # Conclusion:
