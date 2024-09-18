@@ -32,9 +32,9 @@
 
 -  Data Collection: Gathered customer review data, including review text, star ratings, and other relevant metadata.
 -  Data Preprocessing:
-  -  Cleaned the review text by removing stopwords, special characters, and other unnecessary elements.
-  -  Performed tokenization, lemmatization, and vectorization using TF-IDF to convert text into numerical format for analysis.
-  -  Handled missing values, removed duplicates, and balanced the dataset to ensure model stability.
+--  Cleaned the review text by removing stopwords, special characters, and other unnecessary elements.
+--  Performed tokenization, lemmatization, and vectorization using TF-IDF to convert text into numerical format for analysis.
+--  Handled missing values, removed duplicates, and balanced the dataset to ensure model stability.
 -  Exploratory Data Analysis (EDA):
 
 Analyzed the distribution of customer ratings and review sentiment.
